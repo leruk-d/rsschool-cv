@@ -33,6 +33,6 @@
 - Slack
 - Trello
 
-#### Education: _Brest State Technical University_
+##### Education: _Brest State Technical University_
 
-#### English: Pre-Intermediate
+##### English: Pre-Intermediate
