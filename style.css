@@ -4,15 +4,29 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: "Roboto", sans-serif;
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #2d2213;
+
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
 }
+
 .nav-list {
   display: flex;
   flex-wrap: wrap;
@@ -22,6 +36,7 @@ html {
   list-style: none;
   background-color: #e7af45;
 }
+
 .nav-link {
   transition: 0.3s;
   padding: 0 20px;
@@ -33,29 +48,54 @@ a {
   text-decoration: none;
   color: #e7af45;
 }
+
 main {
   display: flex;
   flex-wrap: wrap;
   background-color: #f1ece1;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.namePhoto {
+  margin-left: 30 px;
 }
 
 .section-title {
   background-color: #f0e5d1;
+  text-align: center;
 }
+
 .photoMe {
   width: 200px;
   height: auto;
 }
 
 .footer {
-  display: flex;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0.5rem;
+  background-color: #e7af45;
+}
+
+#footer {
+  display: flex;
   height: 4rem;
   justify-content: space-between;
   align-items: center;
-  background-color: #e7af45;
+
 }
+
 .github {
   color: #ffffff;
+  margin: 20px;
+}
+
+.rs {
+  width: 110px;
+  height: auto;
+  margin: 20px;
+}
+
+.info {
+  margin-left: 7%;
 }
