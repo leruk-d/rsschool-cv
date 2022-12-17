@@ -1,0 +1,61 @@
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #e7af45;
+}
+.nav-link {
+  transition: 0.3s;
+  padding: 0 20px;
+  line-height: 50px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #e7af45;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f1ece1;
+}
+
+.section-title {
+  background-color: #f0e5d1;
+}
+.photoMe {
+  width: 200px;
+  height: auto;
+}
+
+.footer {
+  display: flex;
+  margin: 0 auto;
+  padding: 0.5rem;
+  height: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e7af45;
+}
+.github {
+  color: #ffffff;
+}
